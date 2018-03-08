@@ -3,6 +3,8 @@
 
 package modulo;
 
+import javax.print.attribute.SetOfIntegerSyntax;
+import javax.swing.plaf.FontUIResource;
 
 /**
 * Fizz Buzz
@@ -26,6 +28,25 @@ package modulo;
 **/
 
 public class FizzBuzz {
+	
+public static void main(String[] args) {
+	
+for (int i = 0; i < 21; i++) {
+	
+System.out.println(i);
+if(i%3==0) {	
+System.out.println("Fizz");
+}
+else if(i%5==0) {
+System.out.println("Buzz");
+}
+else if(i%3==0&&i%5==0);{
+System.out.println("FizzBuzz");
+}
+
 
 }
+}	
+}
+
 

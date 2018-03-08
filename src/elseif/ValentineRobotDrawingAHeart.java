@@ -19,7 +19,7 @@ rocky.setAngle(0);
 for (int j = 0; j < 180; j++) {
 rocky.turn(-360/360);
 rocky.move(2);}
-rocky.setAngle(-45);
+
 
 
 	
