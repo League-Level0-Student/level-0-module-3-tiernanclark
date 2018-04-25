@@ -13,7 +13,7 @@ public class HighLowGame {
 
 	public static void main(String[] args) {
 		// 3. Change this line to give you a random number between 1 - 100. 
-int random = new Random().nextInt(50);
+int random = new Random().nextInt(50);//
 boolean won= false;
 		// 2. Print out the random variable above
 //
